@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>证书查看</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,viewport-fit=cover"/>
+    <style>
+        body {
+            margin:0;
+            background-color: #F5F5F5;
+            color:#333;
+
+        }
+        .avatar-wrapper{
+            background: url(https://asset.zjyun.org/images/profile-bg.png) no-repeat;
+            background-size: 100% 100%;
+            height: 150px;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .avatar-wrapper .img{
+            width:90px;
+            height:120px;
+        }
+        /* 列表 */
+
+        .list-title{
+            font-size: 14px;
+            color:#999;
+            padding:14px 15px 10px;
+            background-color: #F5F5F5;
+            position:sticky;
+            top:0;
+        }
+
+        .list-desc{
+            font-size: 6px;
+            color:#999;
+            padding:5px 15px;
+        }
+        .list{
+            border-color:rgba(237,237,237,1);
+            border-width:0;
+            border-style:solid;
+            background-color: #fff;
+        }
+        .list+.list{
+            margin-top: 15px;
+        }
+
+        .list .cell{
+
+        }
+
+        .list .cell .inner{
+            display: flex;
+            height: 100%;
+            min-height:50px;
+            align-items:center;
+            margin-left: 15px;
+            border-bottom:1px solid rgba(237,237,237,1);
+            padding-right: 20px;
+        }
+        .list .cell:last-child .inner{
+            /*
+            border-bottom:none;
+             */
+        }
+        .list .cell .inner .icon{
+        }
+        .list .cell .inner .icon image{
+        }
+        .list .cell .inner .label{
+            font-size: 15px;
+            color:#666;
+        }
+        .list .cell .inner .text{
+            font-size: 15px;
+            text-align: right;
+            color:#333;
+            flex:1;
+        }
+        .cell-hover{
+            background-color:rgba(0,0,0,0.1);
+            opacity:0.7;
+        }
+        .list .cell .inner .more{
+            margin-left: 7px;
+            width:7px;
+            height:7px;
+            background-color:transparent;
+            border-width:0 2px 2px 0;
+            border-style:solid;
+            border-color:#C3C3C3;
+            transform:rotate(-45deg);
+        }
+
+        .list-left .cell .inner .label{
+            width:90px;
+
+        }
+        .list-left .cell .inner .text{
+            text-align: left;
+        }
+
+        .buttons-wrapper{
+            padding:10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="avatar-wrapper">
+        <img class="img" src="https://ata-zjyun.oss-cn-beijing.aliyuncs.com/avatar/50013/99143/8185/430681200305093576.jpg?OSSAccessKeyId=LTAImQWnUts0SsOt&Expires=1699661499&Signature=TYHIODhUHU%2BTmtQYCTGnW8tb%2FTM%3D" alt="">
+    </div>
+
+    <div class="list list-left">
+        <div class="cell"  hover-class="cell-hover">
+            <div class="inner">
+                <div class="label">
+                    姓名
+                </div>
+                <div class="text">
+                李德明                </div>
+            </div>
+        </div>
+        <div class="cell"  hover-class="cell-hover">
+            <div class="inner">
+                <div class="label">
+                    证件类型
+                </div>
+                <div class="text">
+                居民身份证                </div>
+            </div>
+        </div>
+        <div class="cell"  hover-class="cell-hover">
+            <div class="inner">
+                <div class="label">
+                    证件号码
+                </div>
+                <div class="text">
+                430723200406040133                </div>
+            </div>
+        </div>
+        <div class="cell"  hover-class="cell-hover">
+            <div class="inner">
+                <div class="label">
+                    职业名称
+                </div>
+                <div class="text">
+                汽车维修工                </div>
+            </div>
+        </div>
+        <div class="cell"  hover-class="cell-hover">
+            <div class="inner">
+                <div class="label">
+                    工种名称
+                </div>
+                <div class="text">
+                汽车维修检验工                </div>
+            </div>
+        </div>
+        <div class="cell"  hover-class="cell-hover">
+            <div class="inner">
+                <div class="label">
+                    职业等级
+                </div>
+                <div class="text">
+                  四级/中级                </div>
+            </div>
+        </div>
+        <div class="cell"  hover-class="cell-hover">
+            <div class="inner">
+                <div class="label">
+                    证书编号
+                </div>
+                <div class="text">
+                Y000043010076234000009                </div>
+            </div>
+        </div>
+        <div class="cell"  hover-class="cell-hover">
+            <div class="inner">
+                <div class="label">
+                    发证时间
+                </div>
+                <div class="text">
+                2023-06-12                </div>
+            </div>
+        </div>
+        <div class="cell"  hover-class="cell-hover">
+            <div class="inner">
+                <div class="label">
+                    发证机构
+                </div>
+                <div class="text">
+                湖南信息职业技术学院                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
